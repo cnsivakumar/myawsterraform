@@ -21,3 +21,9 @@ variable "instance_type" {
 variable "bucket_name" {
   description = "S3 bucket name"
 }
+
+variable "ami_id" {
+    description = "EC2 AMI ID"
+    default = "ami-1232323"
+  
+}
